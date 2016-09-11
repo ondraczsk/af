@@ -79,7 +79,7 @@ class AdminFun extends PluginBase implements Listener{
 						return true;
 					}
 				}else{
-					$this->getServer()->broadcastMessage("[HEROBRINE] $args");
+					$this->getServer()->broadcastMessage("> Herobrine > $args");
 					return true;
 				}
 			break;
