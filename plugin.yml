@@ -1,0 +1,108 @@
+name: AdminFun
+main: AdminFun\AdminFun
+version: 1.0.0build1
+api: 1.7.0
+author: hoyinm
+description: Let admins to have fun and troll players
+website: http://www.cybercube-hk.com
+
+commands:
+  announce:
+    description: "Broadcast with no prefix"
+    usage: "/announce <message>"
+    permission: "adminfun.announce"
+  bgod:
+    description: "Broadcast with '[GOD]' prefix"
+    usage: "/bgod <message>"
+    permission: "adminfun.bgod"
+  bherobrine:
+    description: "Broadcast with '[HEROBRINE]' prefix"
+    usage: "/bherobrine <message>"
+    permission: "adminfun.bherobrine"
+  console:
+    description: "Broadcast with '[CONSOLE]' prefix"
+    usage: "/console <message>"
+    permission: "adminfun.console"
+  explode:
+    description: "Explode a player"
+    usage: "/explode <player> <size>"
+    permission: "adminfun.explode"
+  fakejoin:
+    description: "Pretend someone(or you) joined the game!"
+    usage: "/fakejoin <player>"
+    permission: "adminfun.fakejoin"
+  fakeop:
+    description: "Pretend to op someone"
+    usage: "/fakeop <player>"
+    permission: "adminfun.fakeop"
+  fakequit:
+    description: "Pretend someone(or you) quit the game!"
+    usage: "/fakequit <player>"
+    permission: "adminfun.fakequit"
+  freeze:
+    description: "Freeze a player"
+    usage: "/freeze <player>"
+    permission: "adminfun.freeze"
+  hide:
+    description: "Vanish someone(or you)"
+    usage: "/hide <player>"
+    permission: "adminfun.hide"
+  unhide:
+    description: "unVanish someone(or you)"
+    usage: "/unhide <player>"
+    permission: "adminfun.unhide"
+  invlock:
+    description: "Lock a player's inventory"
+    usage: "/invlock <player>"
+    permission: "adminfun.invlock"
+  playerchat:
+    description: "Pretend a player to chat"
+    usage: "/playerchat <player> <meesage>"
+    permission: "adminfun.playerchat"
+  void:
+    description: "Teleport someone to the void"
+    usage: "/void <player>"
+    permission: "adminfun.void"
+permissions:
+  announce:
+    default: op
+    description: "Allows admins broadcast with no prefix"
+  bgod:
+    default: op
+    description: "Allows admins broadcast with god prefix"
+  bherobrine:
+    default: op
+    description: "Allows admins broadcast with herobrine prefix"
+  console:
+    default: op
+    description: "Allows admins to braodcast as console"
+  explode:
+    default: op
+    description: "Allows admins to explode a player"
+  fakejoin:
+    default: op
+    description: "Allows admins to pretend someone joined the game!"
+  fakeop:
+    default: op
+    description: "Allows admins to pretend someone as op"
+  fakequit:
+    default: op
+    description: "Allows admins to pretend someone left the game"
+  freeze:
+    default: op
+    description: "Allows admins to freeze someone"
+  hide:
+    default: op
+    description: "Allows admins to hide someone(or you)"
+  unhide:
+    default: op
+    description: "Allows admins to unhide someone(or you)"
+  invlock:
+    default: op
+    description: "Allows admins to lock someone's inventory"
+  playerchat:
+    default: op
+    description: "Allows admins to pretend a player to chat"
+  void:
+    default: op
+    description: "Allows admins to teleport a player to the void"
